@@ -1,5 +1,5 @@
-1. JSON jest lepszy niż .txt, ponieważ przechowuje dane w uporządkowanej strukturze (klucz-wartość), co pozwala bibliotekom takim jak Jackson łatwo zamieniać dane na obiekty i odwrotnie.
+1. JSON jest lepszy niż .txt, ponieważ przechowuje dane w strukturze klucz-wartość, co pozwala bibliotekom takim jak Jackson łatwo zamieniać dane na obiekty i odwrotnie.
 
-2. Jeśli klasa Student nie ma pustego konstruktora, Jackson nie będzie mógł utworzyć obiektu podczas deserializacji i zgłosi błąd.
+2. Jeśli klasa Student nie ma pustego konstruktora, Jackson nie będzie mógł utworzyć obiektu podczas deserializacji i zgłosi błąd InvalidDefinitionException.
 
 3. Słowo kluczowe transient oznacza, że dane pole nie będzie zapisywane podczas serializacji obiektu.
